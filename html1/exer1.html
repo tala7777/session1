@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>First HTML</title>
+
+    <style>
+        img { border-radius: 10px; }
+        table, th, td { border: 1px solid black; border-collapse: collapse; padding: 5px; }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome</h1>
+        <p>This is my first HTML page!</p>
+    </header>
+
+    <nav>
+        <a href="https://www.pinterest.com/" target="_blank">Visit Pinterest</a>
+    </nav>
+
+    <main>
+
+    
+        <section>
+            <h2>Amman</h2>
+            <img src="bb0f60129c3377358a7def4684837b79.jpg" alt="Amman" width="200" height="200">
+        </section>
+
+        <article>
+            <h2>My City</h2>
+            <p>I have lived here since <b>2002</b>.</p>
+        </article>
+
+        <section>
+            <h2>Popular Spots</h2>
+            <ul>
+                <li>Downtown</li>
+                <li>Abdali</li>
+                <li>Weibdeh</li>
+            </ul>
+
+            <h3>Close Cities</h3>
+            <ol>
+                <li>Zarqa</li>
+                <li>Salt</li>
+                <li>Irbid</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Activities</h2>
+
+        
+            <table>
+                <tr>
+                    <th>Ajloun</th>
+                    <th>Irbid</th>
+                </tr>
+                <tr>
+                    <td>Zipline</td>
+                    <td>Picnic</td>
+                </tr>
+                <tr>
+                    <td colspan="3">amman </td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="media">
+            <h2>Scenes from the North</h2>
+
+            
+            <h3>My Intro Video</h3>
+            <video controls width="320" height="240">
+                <source src="4361617-uhd_3840_2160_25fps.mp4" type="video/mp4">
+            </video>
+            <audio controls>
+                <source src="song.mp3" type="audio/mp3">
+            </audio>
+            <h3>Embedded YouTube Video</h3>
+            <iframe width="350" height="200" 
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                >
+            </iframe>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label>Name: <input type="text" required></label><br>
+                <label>Email: <input type="email" required></label><br>
+                <label>Age: <input type="number" min="10" max="100"></label><br>
+                <label>Birth Date: <input type="date"></label><br>
+                <label>Message: <textarea></textarea></label><br>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 HTML Project</p>
+    </footer>
+
+</body>
+</html>
